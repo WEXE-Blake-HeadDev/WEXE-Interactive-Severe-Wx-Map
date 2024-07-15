@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px; /* Add padding to the top to make space for the logo */
+    background-image: url('background.JPG'); /* Replace with the path to your image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    margin: 0; /* Remove default margin */
+}
+
+#map { 
+    height: 600px;
+    margin: 0 auto; /* Center the map */
+    display: block; /* Ensure the map is a block element */
+    max-width: 100%; /* Ensure the map does not exceed the width of its container */
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto; /* Center login box */
+    background: rgba(255, 255, 255, 0.8); /* Add a white background with opacity */
+    padding: 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#login input { 
+    margin: 5px 0;
+}
+
+.leaflet-popup-content-wrapper { 
+    background: #fff; 
+    color: #000; 
+}
+
+#userRole, #colorPickerContainer { 
+    margin: 20px;
+    text-align: center; /* Center the content */
+}
+
+#colorPicker { 
+    margin-left: 10px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#header {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0); /* Ensure the header text is readable on the background image */
+    position: relative; /* Ensure the header is positioned relative to its normal position */
+}
+
+#header h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+#header .logo-container {
+    margin-top: 10px; /* Add space between the header text and the logo */
+}
